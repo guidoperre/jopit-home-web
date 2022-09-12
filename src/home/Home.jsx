@@ -15,9 +15,21 @@ export function Home() {
                     </div>
                 </div>
                 <div className="Decoration">
-                    <img className="Decoration_Image"
-                         src={process.env.PUBLIC_URL + '/home/home_image.png'}
-                         alt="logo" />
+                    <div className="Decoration_Emoji_Left">
+                        <img className="Decoration_Emoji"
+                             src={process.env.PUBLIC_URL + '/home/home_shop_emoji.png'}
+                             alt="logo" />
+                    </div>
+                    <div className="Decoration_Image_Container">
+                        <img className="Decoration_Image"
+                             src={process.env.PUBLIC_URL + '/home/home_image.png'}
+                             alt="logo" />
+                    </div>
+                    <div className="Decoration_Emoji_Right">
+                        <img className="Decoration_Emoji"
+                             src={process.env.PUBLIC_URL + '/home/home_glasses_emoji.png'}
+                             alt="logo" />
+                    </div>
                 </div>
             </div>
         </div>

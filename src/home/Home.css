@@ -12,23 +12,6 @@
     gap: 80px;
 }
 
-.Decoration {
-    width: 560px;
-    height: 700px;
-    display: flex;
-    background: linear-gradient(212.62deg, #FF8C8C 0%, #FF5757 100%);
-    box-shadow: 0 3px 6px rgba(51, 51, 51, 0.1);
-    border-radius: 160px;
-    overflow: clip;
-}
-
-.Decoration_Image {
-    width: 453px;
-    height: 726px;
-    overflow: hidden;
-    margin: 90px auto auto auto;
-}
-
 .Brand_Container {
     width: 560px;
     margin: auto;
@@ -65,7 +48,7 @@
 
 .Brand_Action {
     height: 48px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 28px;
     display: flex;
     cursor: pointer;
@@ -73,8 +56,59 @@
 
 .Brand_Action_Text {
     font-family: Quicksand, serif;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 14px;
+    font-weight: 600;
     color: white;
     margin: auto 24px auto 24px;
+}
+
+.Decoration {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.Decoration_Image_Container {
+    width: 560px;
+    height: 700px;
+    display: flex;
+    background: linear-gradient(212.62deg, #FF8C8C 0%, #FF5757 100%);
+    box-shadow: 0 3px 6px rgba(51, 51, 51, 0.1);
+    border-radius: 160px;
+    overflow: clip;
+}
+
+.Decoration_Image {
+    width: 453px;
+    height: 726px;
+    overflow: hidden;
+    margin: 90px auto auto auto;
+}
+
+.Decoration_Emoji_Left {
+    position: absolute;
+    bottom: 160px;
+    left: -48px;
+    width: 96px;
+    height: 96px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+}
+
+.Decoration_Emoji_Right {
+    position: absolute;
+    top: 160px;
+    right: -48px;
+    width: 96px;
+    height: 96px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+}
+
+.Decoration_Emoji {
+    margin: auto;
+    font-family: Quicksand, serif;
+    font-size: 48px;
 }
