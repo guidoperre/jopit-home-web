@@ -1,0 +1,60 @@
+.Header {
+    height: 80px;
+    background-color: #FF5757;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Logo {
+    display: flex;
+    margin-left: 240px;
+}
+
+.Logo_Image {
+    height: 32px;
+    pointer-events: none;
+    margin: auto;
+}
+
+.Logo_Name {
+    font-family: Quicksand, serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    margin: auto auto auto 8px;
+
+}
+
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Page_Style {
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+
+.Login {
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+    margin: auto 240px auto 0;
+}
+
+.Login_Text {
+    font-family: Quicksand, serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    margin: auto 32px 10px 32px;
+}
