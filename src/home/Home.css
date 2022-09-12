@@ -1,11 +1,11 @@
 .Home {
-    height:91.5vmin;
+    height:100vmin;
     background: #FF5757;
     display: flex;
-    gap: 56px;
 }
 
 .Home_Content {
+    padding-top: 80px;
     margin: auto;
     display: flex;
     justify-content: center;
