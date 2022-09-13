@@ -1,0 +1,67 @@
+.Footer {
+    height: 260px;
+    background-color: #FF5757;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Footer_Top_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.Footer_Bottom_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.Social_Container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-right: 240px;
+}
+
+.Social_Link {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+}
+
+.Social_Image {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.Legal_Container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-left: 240px;
+}
+
+.Footer_Clickable_Text {
+    font-family: Quicksand, serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+
+.Footer_Text {
+    font-family: Quicksand, serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    margin-right: 240px;
+}

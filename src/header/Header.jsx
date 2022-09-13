@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 import {onAboutUsClicked, onContactClicked, onFAQClicked, onLoginClicked, onPriceClicked} from "./HeaderNavigation";
 import {useScrollPosition} from "../states/ScrollState";
+import {Logo} from "../commons/logo/Logo";
 
 export function Header() {
     const scrollPosition = useScrollPosition()
@@ -30,12 +31,7 @@ export function Header() {
 
     return (
         <header className="Header" style={{ backgroundColor: backgroundColor, boxShadow: boxShadow}}>
-            <div className="Logo">
-                <img className="Logo_Image"
-                     src={process.env.PUBLIC_URL + '/logo/' + logoImage + '.png'}
-                     alt="logo" />
-                <p className="Logo_Name" style={{ color: logoColor}}>jopit</p>
-            </div>
+            <Logo image={logoImage} color={logoColor} />
             <div className="Navigation">
                 <p className="Page_Style" onClick={onAboutUsClicked} style={{ color: textColor}}>¿Quienes somos?</p>
                 <p className="Page_Style" onClick={onPriceClicked} style={{ color: textColor}}>Precio</p>

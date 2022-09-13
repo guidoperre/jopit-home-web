@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {Home} from "../home/Home";
 import {Description} from "../description/Description";
 import {Header} from "../header/Header";
+import {Footer} from "../footer/Footer";
 
 export default function App() {
     return (
@@ -11,6 +12,7 @@ export default function App() {
             <Header/>
             <Home/>
             <Description/>
+            <Footer/>
             <ToastContainer/>
         </div>
     );

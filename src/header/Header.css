@@ -11,23 +11,7 @@
 }
 
 .Logo {
-    display: flex;
     margin-left: 240px;
-}
-
-.Logo_Image {
-    height: 32px;
-    pointer-events: none;
-    margin: auto;
-}
-
-.Logo_Name {
-    font-family: Quicksand, serif;
-    font-size: 18px;
-    font-weight: normal;
-    color: white;
-    margin: auto auto auto 8px;
-
 }
 
 .Navigation {
