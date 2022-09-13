@@ -7,11 +7,11 @@ import {Header} from "../header/Header";
 
 export default function App() {
     return (
-    <div>
-        <Header/>
-        <Home/>
-        <Description/>
-        <ToastContainer/>
-    </div>
+        <div>
+            <Header/>
+            <Home/>
+            <Description/>
+            <ToastContainer/>
+        </div>
     );
 }
