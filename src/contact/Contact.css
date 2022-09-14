@@ -11,7 +11,7 @@
 }
 
 .Contact_Title {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -20,7 +20,7 @@
 }
 
 .Contact_Subtitle {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -43,7 +43,7 @@
 
 .Contact_Label_Title {
     width: fit-content;
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     z-index: 2;
     font-style: normal;
     font-weight: 400;
@@ -61,7 +61,7 @@
     width: 608px;
     border: 2px solid #EEEEEE;
     border-radius: 8px;
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -75,7 +75,7 @@
     width: 608px;
     border: 2px solid #EEEEEE;
     border-radius: 8px;
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

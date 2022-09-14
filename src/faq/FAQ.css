@@ -11,7 +11,7 @@
 }
 
 .FAQ_Title {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -47,7 +47,7 @@
 }
 
 .Question_Text {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

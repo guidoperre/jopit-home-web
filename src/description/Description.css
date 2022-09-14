@@ -11,7 +11,7 @@
 }
 
 .Description_Subtitle {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
@@ -20,7 +20,7 @@
 }
 
 .Description_Title {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
@@ -32,7 +32,7 @@
 
 .Description_Text {
     width: 75%;
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -89,7 +89,7 @@
 }
 
 .Feature_Title {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -99,7 +99,7 @@
 }
 
 .Feature_Description {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

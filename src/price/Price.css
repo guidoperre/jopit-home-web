@@ -13,7 +13,7 @@
 }
 
 .Price_Subtitle {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -22,7 +22,7 @@
 }
 
 .Price_Title {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 112px;
@@ -33,7 +33,7 @@
 
 .Price_Text {
     width: 480px;
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -90,7 +90,7 @@
 }
 
 .Price_Feature_Title {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -100,7 +100,7 @@
 }
 
 .Price_Feature_Description {
-    font-family: 'Quicksand', serif;
+    font-family: Quicksand, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
