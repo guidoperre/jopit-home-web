@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../tpo-app.iml" filepath="$PROJECT_DIR$/../tpo-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jopit-home.iml" filepath="$PROJECT_DIR$/.idea/jopit-home.iml" />
     </modules>
   </component>
 </project>
