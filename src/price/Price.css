@@ -65,14 +65,14 @@
 }
 
 .Price_Features {
-    margin: 64px 120px 16px 120px;
+    margin: 64px 120px 56px 120px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 48px;
+    grid-row-gap: 32px;
 }
 
 .Price_Feature {
-    height: 144px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
