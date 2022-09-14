@@ -69,8 +69,8 @@
 }
 
 .Decoration_Image_Container {
-    width: 560px;
-    height: 700px;
+    width: 500px;
+    height: 640px;
     display: flex;
     background: linear-gradient(212.62deg, #FF8C8C 0%, #FF5757 100%);
     box-shadow: 0 3px 6px rgba(51, 51, 51, 0.1);
@@ -82,7 +82,7 @@
     width: 453px;
     height: 726px;
     overflow: hidden;
-    margin: 90px auto auto auto;
+    margin: 48px auto auto auto;
 }
 
 .Decoration_Emoji_Left {

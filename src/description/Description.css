@@ -45,7 +45,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin-top: 56px;
+    margin-top: 24px;
 }
 
 .Description_Features {
@@ -67,7 +67,7 @@
 }
 
 .Feature {
-    height: 144px;
+    height: 120px;
     background: #FFFFFF;
     box-shadow: 0 3px 6px rgba(51, 51, 51, 0.1);
     display: flex;
@@ -80,12 +80,17 @@
     flex-direction: row;
     align-content: flex-start;
     margin-top: 16px;
+    margin-bottom: 4px;
     margin-left: 16px;
 }
 
 .Feature_Emoji {
-    width: 22px;
-    height: 22px;
+    font-family: Quicksand, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
 }
 
 .Feature_Title {
@@ -105,13 +110,13 @@
     font-size: 14px;
     line-height: 20px;
     color: #333333;
-    margin: 8px 16px 16px;
+    margin: 0 16px 16px;
     overflow: auto;
 }
 
 .Description_Image_Container {
-    width: 480px;
-    height: 480px;
+    width: 400px;
+    height: 400px;
     box-shadow: 0 3px 6px rgba(51, 51, 51, 0.1);
     border-radius: 16px;
     margin: auto 0 auto auto;

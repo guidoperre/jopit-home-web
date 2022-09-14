@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 80px 320px;
+    margin: 80px;
 }
 
 .FAQ_Title {
@@ -20,17 +20,17 @@
 }
 
 .FAQ_Questions_Content {
-    width: 100%;
+    width: 80%;
     display: flex;
-    margin-top: 48px;
+    margin: 48px auto auto;
 }
 
 .FAQ_Questions {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 32px;
-    grid-column-gap: 80px;
+    grid-row-gap: 24px;
+    grid-column-gap: 40px;
     flex: 1;
     margin: auto 32px auto auto;
 }
