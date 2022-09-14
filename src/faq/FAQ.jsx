@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import './FAQ.css';
 
 export function FAQ(props) {
@@ -8,14 +8,14 @@ export function FAQ(props) {
                 <p className="FAQ_Title">Preguntas Frecuentes</p>
                 <div className="FAQ_Questions_Content">
                     <div className="FAQ_Questions">
-                        <Question title='¿Donde van a encontrar mi tienda?' response='Soy una respuesta a la pregunta seleccionada. Por ahora no se que responderte, pues no hay ninguna pregunta valida que me hayan hecho. Pero seguramente dentro de muy poco podamos responder lo que nos pidas. Gracias por ser paciente.'/>
-                        <Question title='¿Donde van a encontrar mi tienda?' response='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question title='¿Donde van a encontrar mi tienda?' response='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question title='¿Donde van a encontrar mi tienda?' response='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question title='¿Donde van a encontrar mi tienda?' response='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question title='¿Donde van a encontrar mi tienda?' response='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question title='¿Donde van a encontrar mi tienda?' response='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question title='¿Donde van a encontrar mi tienda?' response='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada. Por ahora no se que responderte, pues no hay ninguna pregunta valida que me hayan hecho. Pero seguramente dentro de muy poco podamos responder lo que nos pidas. Gracias por ser paciente.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
                     </div>
                 </div>
             </div>
@@ -24,27 +24,37 @@ export function FAQ(props) {
 }
 
 function Question(props) {
-    const [isExpanded, setExpandedState] = useState(false);
-    let expandedClass
-    let expandedResponseClass
+    const [active, setActive] = useState(false);
 
-    if (isExpanded) {
-        expandedClass = 'ExpandedQuestion'
-        expandedResponseClass = 'ExpandedResponse'
-    } else {
-        expandedClass = 'CollapsedQuestion'
-        expandedResponseClass = 'CollapsedResponse'
-    }
+    const contentRef = useRef(null);
 
-    return(
-        <div id="expandable-question" className={expandedClass} onClick={() => setExpandedState(!isExpanded)}>
-            <div className="Question_Container">
-                <p className="Question_Text">{props.title}</p>
-                <img className="Question_Chevron"
-                     src={process.env.PUBLIC_URL + '/faq/faq_chevron.png'}
-                     alt="logo" />
-            </div>
-            <p id="expandable-response" className={expandedResponseClass}>{props.response}</p>
+    useEffect(() => {
+        contentRef.current.style.maxHeight = active
+            ? `${contentRef.current.scrollHeight}px`
+            : "0px";
+    }, [contentRef, active]);
+
+    const toggleAccordion = () => {
+        setActive(!active);
+    };
+
+    return (
+        <div>
+            <button
+                className={`Question ${active}`}
+                onClick={toggleAccordion}>
+                <div className="Question_Container">
+                    <div className="Question_Align">
+                        <p className="Question_Text">{props.question}</p>
+                        <img className="Question_Chevron"
+                             src={process.env.PUBLIC_URL + '/faq/faq_chevron.png'}
+                             alt="logo" />
+                    </div>
+                    <div ref={contentRef} className="Answer_Container">
+                        <p className="Answer">{props.answer}</p>
+                    </div>
+                </div>
+            </button>
         </div>
-    )
+    );
 }
