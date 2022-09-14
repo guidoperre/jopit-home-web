@@ -10,7 +10,7 @@ export const onNavigateTo = (section) => {
 
 const scrollDown = (section) => {
     window.scrollTo({
-        top: section.current.offsetTop,
+        top: section.current.offsetTop - 40,
         behavior: 'smooth',
     });
 };
