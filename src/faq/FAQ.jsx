@@ -11,11 +11,11 @@ export function FAQ(props) {
                         <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada. Por ahora no se que responderte, pues no hay ninguna pregunta valida que me hayan hecho. Pero seguramente dentro de muy poco podamos responder lo que nos pidas. Gracias por ser paciente.'/>
                         <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
                         <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada. Por ahora no se que responderte, pues no hay ninguna pregunta valida que me hayan hecho. Pero seguramente dentro de muy poco podamos responder lo que nos pidas. Gracias por ser paciente.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada. Por ahora no se que responderte, pues no hay ninguna pregunta valida que me hayan hecho. Pero seguramente dentro de muy poco podamos responder lo que nos pidas. Gracias por ser paciente.'/>
                         <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
                         <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
-                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada.'/>
+                        <Question question='¿Donde van a encontrar mi tienda?' answer='Soy una respuesta a la pregunta seleccionada. Por ahora no se que responderte, pues no hay ninguna pregunta valida que me hayan hecho. Pero seguramente dentro de muy poco podamos responder lo que nos pidas. Gracias por ser paciente.'/>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,6 @@ export function FAQ(props) {
 
 function Question(props) {
     const [active, setActive] = useState(false);
-
     const contentRef = useRef(null);
 
     useEffect(() => {
