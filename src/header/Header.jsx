@@ -1,10 +1,13 @@
 import React from "react";
 import './Header.css';
-import {onAboutUsClicked, onContactClicked, onFAQClicked, onLoginClicked, onPriceClicked} from "./HeaderNavigation";
+import {
+    onLoginClicked,
+    onNavigateTo
+} from "./HeaderNavigation";
 import {useScrollPosition} from "../states/ScrollState";
 import {Logo} from "../commons/logo/Logo";
 
-export function Header() {
+export function Header(props) {
     const scrollPosition = useScrollPosition()
     let backgroundColor
     let logoImage
@@ -33,10 +36,25 @@ export function Header() {
         <header className="Header" style={{ backgroundColor: backgroundColor, boxShadow: boxShadow}}>
             <Logo image={logoImage} color={logoColor} />
             <div className="Navigation">
-                <p className="Page_Style" onClick={onAboutUsClicked} style={{ color: textColor}}>¿Quienes somos?</p>
-                <p className="Page_Style" onClick={onPriceClicked} style={{ color: textColor}}>Precio</p>
-                <p className="Page_Style" onClick={onFAQClicked} style={{ color: textColor}}>FAQ</p>
-                <p className="Page_Style" onClick={onContactClicked} style={{ color: textColor}}>Contacto</p>
+                <p className="Page_Style"
+                   onClick={() => onNavigateTo(props.description)}
+                   style={{ color: textColor}}
+                >¿Quienes somos?</p>
+                <p
+                    className="Page_Style"
+                    onClick={() => onNavigateTo(props.price)}
+                    style={{ color: textColor}}
+                >Precio</p>
+                <p
+                    className="Page_Style"
+                    onClick={() => onNavigateTo(props.faq)}
+                    style={{ color: textColor}}
+                >FAQ</p>
+                <p
+                    className="Page_Style"
+                    onClick={() => onNavigateTo(props.contact)}
+                    style={{ color: textColor}}
+                >Contacto</p>
             </div>
             <div className="Login" onClick={onLoginClicked} style={{ border: loginBorder}}>
                 <p className="Login_Text">INGRESAR</p>

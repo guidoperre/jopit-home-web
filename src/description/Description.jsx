@@ -1,9 +1,9 @@
 import React from "react";
 import './Description.css';
 
-export function Description() {
+export function Description(props) {
     return (
-        <div className="Description">
+        <div className="Description" ref={props.section}>
             <div className="Description_Content">
                 <p className="Description_Subtitle">DESCRIPCIÓN</p>
                 <p className="Description_Title">¿Quienes somos?</p>

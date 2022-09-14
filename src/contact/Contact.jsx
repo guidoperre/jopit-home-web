@@ -2,9 +2,9 @@ import React from "react";
 import './Contact.css';
 import {toast} from "react-toastify";
 
-export function Contact() {
+export function Contact(props) {
     return (
-        <div className="Contact">
+        <div className="Contact" ref={props.section}>
             <div className="Contact_Content">
                 <p className="Contact_Title">Contacta con nosotros</p>
                 <p className="Contact_Subtitle">Nuestro equipo respondera lo mas pronto posible 😀</p>

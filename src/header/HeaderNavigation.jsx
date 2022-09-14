@@ -4,20 +4,15 @@ export const onLoginClicked = () => {
     showSuccessToast()
 };
 
-export const onAboutUsClicked = () => {
-    showSuccessToast()
+export const onNavigateTo = (section) => {
+    scrollDown(section)
 };
 
-export const onPriceClicked = () => {
-    showSuccessToast()
-};
-
-export const onFAQClicked = () => {
-    showSuccessToast()
-};
-
-export const onContactClicked = () => {
-    showSuccessToast()
+const scrollDown = (section) => {
+    window.scrollTo({
+        top: section.current.offsetTop,
+        behavior: 'smooth',
+    });
 };
 
 function showSuccessToast() {

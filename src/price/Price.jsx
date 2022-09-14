@@ -2,9 +2,9 @@ import React from "react";
 import './Price.css';
 import {toast} from "react-toastify";
 
-export function Price() {
+export function Price(props) {
     return (
-        <div className="Price">
+        <div className="Price" ref={props.section}>
             <div className="Price_Top_Content">
                 <p className="Price_Subtitle">CREAR TU NEGOCIO ES</p>
                 <p className="Price_Title">¡GRATIS!</p>

@@ -1,9 +1,9 @@
 import React from "react";
 import './FAQ.css';
 
-export function FAQ() {
+export function FAQ(props) {
     return (
-        <div className="FAQ">
+        <div className="FAQ" ref={props.section}>
             <div className="FAQ_Content">
                 <p className="FAQ_Title">Preguntas Frecuentes</p>
                 <div className="FAQ_Questions_Content">
