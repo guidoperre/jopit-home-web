@@ -6,6 +6,7 @@ import {Description} from "../description/Description";
 import {Header} from "../header/Header";
 import {Footer} from "../footer/Footer";
 import {Price} from "../price/Price";
+import {FAQ} from "../faq/FAQ";
 
 export default function App() {
     return (
@@ -14,6 +15,7 @@ export default function App() {
             <Home/>
             <Description/>
             <Price/>
+            <FAQ/>
             <Footer/>
             <ToastContainer/>
         </div>

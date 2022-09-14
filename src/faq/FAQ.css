@@ -1,0 +1,63 @@
+.FAQ {
+    background: #FAFAFA;
+    display: flex;
+}
+
+.FAQ_Content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 320px;
+}
+
+.FAQ_Title {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #333333;
+    margin: auto;
+}
+
+.FAQ_Questions_Content {
+    width: 100%;
+    display: flex;
+    margin-top: 48px;
+}
+
+.FAQ_Questions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 32px;
+    grid-column-gap: 80px;
+    flex: 1;
+    margin: auto 32px auto auto;
+}
+
+
+.Question {
+    height: 64px;
+    background: #FFFFFF;
+    box-shadow: 0 3px 6px rgba(51, 51, 51, 0.1);
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Question_Text {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    margin: auto auto auto 24px;
+}
+
+.Question_Chevron {
+    width: 12px;
+    height: 12px;
+    margin: auto 32px auto auto;
+}
