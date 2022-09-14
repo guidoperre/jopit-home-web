@@ -27,10 +27,9 @@ export function Footer() {
 
 function SocialLink(props) {
     return (
-        <div className="Social_Link">
+        <div className="Social_Link" onClick={() => onSocialClicked(props.url)}>
             <img className="Social_Image"
                  src={process.env.PUBLIC_URL + '/social/' + props.image + '.png'}
-                 onClick={() => onSocialClicked(props.url)}
                  alt="logo" />
         </div>
     );

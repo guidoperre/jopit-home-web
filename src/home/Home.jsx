@@ -41,7 +41,7 @@ const onCreateShopClicked = () => {
 };
 
 function showSuccessToast() {
-    toast.success('Success Notification !', {
+    toast.info('En desarrollo 🔨👷‍', {
         position: toast.POSITION.BOTTOM_LEFT
     });
 }
