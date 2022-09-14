@@ -40,6 +40,24 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.Price_Action {
+    height: 56px;
+    background-color: #FFB340;
+    border-radius: 32px;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(51, 51, 51, 0.1);
+}
+
+.Price_Action_Text {
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin: auto 32px auto 32px;
 }
 
 .Price_Bottom_Content {
@@ -47,7 +65,7 @@
 }
 
 .Price_Features {
-    margin: 64px 120px 64px 120px;
+    margin: 64px 120px 16px 120px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 48px;
