@@ -63,7 +63,7 @@
 }
 
 .Decoration {
-    width: 30%;
+    width: 27.5%;
     max-height: 35vw;
     margin: auto auto auto 0;
     position: relative;
@@ -76,12 +76,12 @@
     display: flex;
     background: linear-gradient(212.62deg, #FF8C8C 0%, #FF5757 100%);
     box-shadow: 0 3px 6px rgba(51, 51, 51, 0.1);
-    border-radius: 6vw;
+    border-radius: 8vw;
     overflow: clip;
 }
 
 .Decoration_Image {
-    width: 80%;
+    width: 85%;
     overflow: clip;
     margin: 10% auto auto auto;
 }
