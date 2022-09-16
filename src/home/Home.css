@@ -22,7 +22,7 @@
 
 .Brand_Subtitle {
     font-family: Quicksand, serif;
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: 400;
     color: white;
     margin-bottom: 8px;
@@ -30,7 +30,7 @@
 
 .Brand_Title {
     font-family: Quicksand, serif;
-    font-size: 64px;
+    font-size: 3vw;
     font-weight: 600;
     color: white;
     margin: auto auto 24px auto;
@@ -39,7 +39,7 @@
 
 .Brand_Description {
     font-family: Quicksand, serif;
-    font-size: 16px;
+    font-size: 0.75vw;
     font-weight: initial;
     line-height: 32px;
     color: white;
@@ -47,7 +47,7 @@
 }
 
 .Brand_Action {
-    height: 48px;
+    height: 2.5vw;
     border: 2px solid white;
     border-radius: 28px;
     display: flex;
@@ -56,7 +56,7 @@
 
 .Brand_Action_Text {
     font-family: Quicksand, serif;
-    font-size: 14px;
+    font-size: 0.75vw;
     font-weight: 600;
     color: white;
     margin: auto 24px auto 24px;

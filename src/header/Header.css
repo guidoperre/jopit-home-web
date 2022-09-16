@@ -12,7 +12,7 @@
 }
 
 .Logo {
-    margin-left: 240px;
+    margin-left: 10%;
 }
 
 .Navigation {
@@ -38,7 +38,7 @@
     border-radius: 20px;
     display: flex;
     cursor: pointer;
-    margin: auto 240px auto 0;
+    margin: auto 10% auto 0;
 }
 
 .Login_Text {
