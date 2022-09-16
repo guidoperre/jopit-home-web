@@ -1,4 +1,5 @@
 .Home {
+    width: 100%;
     height:100vmin;
     background: #FF5757;
     display: flex;
@@ -8,13 +9,12 @@
     padding-top: 80px;
     margin: auto;
     display: flex;
-    justify-content: center;
-    gap: 80px;
+    gap: 5%;
 }
 
 .Brand_Container {
-    width: 560px;
-    margin: auto;
+    width: 30%;
+    margin: auto 0 auto auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -30,7 +30,7 @@
 
 .Brand_Title {
     font-family: Quicksand, serif;
-    font-size: 3vw;
+    font-size: 3.25vw;
     font-weight: 600;
     color: white;
     margin: auto auto 24px auto;
@@ -39,7 +39,7 @@
 
 .Brand_Description {
     font-family: Quicksand, serif;
-    font-size: 0.75vw;
+    font-size: 0.8vw;
     font-weight: initial;
     line-height: 32px;
     color: white;
@@ -63,6 +63,7 @@
 }
 
 .Decoration {
+    margin: auto auto auto 0;
     position: relative;
     display: flex;
     flex-direction: row;
