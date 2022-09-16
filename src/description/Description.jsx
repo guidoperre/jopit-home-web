@@ -35,11 +35,11 @@ export function Description(props) {
                             title='El mejor precio'
                             description='Ofrecemos el mejor precio del mercado. Comisiones bajas y limite de pago para que no te preocupes por nada.' />
                     </div>
-                    <div className="Description_Image_Container">
-                        <img className="Description_Image"
-                             src={process.env.PUBLIC_URL + '/description/description_image.png'}
-                             alt="description" />
-                    </div>
+
+                    <img className="Description_Image"
+                         src={process.env.PUBLIC_URL + '/description/description_image.png'}
+                         alt="description" />
+
                 </div>
             </div>
         </div>
